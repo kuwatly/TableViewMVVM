@@ -14,6 +14,7 @@
 		CEF8F94320200FC4003778E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF8F94120200FC4003778E6 /* LaunchScreen.storyboard */; };
 		CEF8F94E20200FC4003778E6 /* TableViewMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8F94D20200FC4003778E6 /* TableViewMVVMTests.swift */; };
 		CEF8F95920200FC4003778E6 /* TableViewMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8F95820200FC4003778E6 /* TableViewMVVMUITests.swift */; };
+		CEF8F967202012D2003778E6 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8F966202012D2003778E6 /* TodoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CEF8F95420200FC4003778E6 /* TableViewMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF8F95820200FC4003778E6 /* TableViewMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMVVMUITests.swift; sourceTree = "<group>"; };
 		CEF8F95A20200FC4003778E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF8F966202012D2003778E6 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CEF8F93F20200FC4003778E6 /* Assets.xcassets */,
 				CEF8F94120200FC4003778E6 /* LaunchScreen.storyboard */,
 				CEF8F94420200FC4003778E6 /* Info.plist */,
+				CEF8F966202012D2003778E6 /* TodoViewModel.swift */,
 			);
 			path = TableViewMVVM;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF8F967202012D2003778E6 /* TodoViewModel.swift in Sources */,
 				CEF8F93B20200FC4003778E6 /* ViewController.swift in Sources */,
 				CEF8F93920200FC4003778E6 /* AppDelegate.swift in Sources */,
 			);
