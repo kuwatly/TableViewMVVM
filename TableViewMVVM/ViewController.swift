@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tableViewItems: UITableView!
+    @IBOutlet weak var textFieldNewItem: UITextField!
+    
+    @IBAction func onAddItem(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
