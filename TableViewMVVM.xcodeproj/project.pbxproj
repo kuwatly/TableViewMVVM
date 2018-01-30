@@ -15,6 +15,8 @@
 		CEF8F94E20200FC4003778E6 /* TableViewMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8F94D20200FC4003778E6 /* TableViewMVVMTests.swift */; };
 		CEF8F95920200FC4003778E6 /* TableViewMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8F95820200FC4003778E6 /* TableViewMVVMUITests.swift */; };
 		CEF8F967202012D2003778E6 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8F966202012D2003778E6 /* TodoViewModel.swift */; };
+		CEF8F96A20202B33003778E6 /* TodoItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8F96820202B33003778E6 /* TodoItemTableViewCell.swift */; };
+		CEF8F96B20202B33003778E6 /* TodoItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF8F96920202B33003778E6 /* TodoItemTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CEF8F95820200FC4003778E6 /* TableViewMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMVVMUITests.swift; sourceTree = "<group>"; };
 		CEF8F95A20200FC4003778E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF8F966202012D2003778E6 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		CEF8F96820202B33003778E6 /* TodoItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemTableViewCell.swift; sourceTree = "<group>"; };
+		CEF8F96920202B33003778E6 /* TodoItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoItemTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				CEF8F94120200FC4003778E6 /* LaunchScreen.storyboard */,
 				CEF8F94420200FC4003778E6 /* Info.plist */,
 				CEF8F966202012D2003778E6 /* TodoViewModel.swift */,
+				CEF8F96820202B33003778E6 /* TodoItemTableViewCell.swift */,
+				CEF8F96920202B33003778E6 /* TodoItemTableViewCell.xib */,
 			);
 			path = TableViewMVVM;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			files = (
 				CEF8F94320200FC4003778E6 /* LaunchScreen.storyboard in Resources */,
 				CEF8F94020200FC4003778E6 /* Assets.xcassets in Resources */,
+				CEF8F96B20202B33003778E6 /* TodoItemTableViewCell.xib in Resources */,
 				CEF8F93E20200FC4003778E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +271,7 @@
 			files = (
 				CEF8F967202012D2003778E6 /* TodoViewModel.swift in Sources */,
 				CEF8F93B20200FC4003778E6 /* ViewController.swift in Sources */,
+				CEF8F96A20202B33003778E6 /* TodoItemTableViewCell.swift in Sources */,
 				CEF8F93920200FC4003778E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
